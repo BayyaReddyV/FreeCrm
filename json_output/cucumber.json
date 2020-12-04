@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "FreeCRM login",
+        "description": "",
+        "id": "freecrm--login-feature;freecrm-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16489478200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on the login page",
+            "match": {
+              "location": "LoginStepDefinitin.user_is_already_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 632425400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginStepDefinitin.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167556100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "LoginStepDefinitin.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24143700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinitin.user_is_on_homepage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM  Login feature",
+    "description": "",
+    "id": "freecrm--login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/91961/eclipse-workspace/FreeCRM/src/main/java/Features/Login.feature"
+  }
+]
